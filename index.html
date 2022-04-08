@@ -1,0 +1,50 @@
+### Hi there 👋
+
+<html>
+    <head>
+        <title>Navya Sri Racha</title>
+        <style>
+            button {
+                height: 100px;
+                width: 100px;
+                border-radius: 50%;
+                background-color: #E83556;
+                cursor: pointer;
+                color: white;
+            }
+            div {
+                width: 100%;
+                height: 100px;
+                background-color: #E83556;
+            }
+            * {
+                border: 2px solid #dedede;
+                padding: 15px;
+                margin: 15px;
+            }
+        </style>
+
+    </head>
+    <body>
+        <h1>Hello,</h1>
+        <h3>a bit about me :</h3>
+        <button onclick="resume.html">My Resume</button>
+        <button>My Work</button>
+        <button>My skills</button>
+        <button>My art</button>
+        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore corrupti deleniti minus, in impedit nesciunt perspiciatis iusto harum consectetur sunt obcaecati, neque distinctio, reprehenderit aliquam reiciendis incidunt dolores inventore libero!</P>
+        
+        <script>
+            let bio = document.createElement('p');
+            bio.textContent = "My name is navya"
+            let bodyelement = document.querySelector('p');
+            //bodyelement.appendChild(bio);
+
+            let script1 = document.querySelector('p');
+            bodyelement.insertBefore(bio,script1);
+        </script>
+        
+
+        
+    </body>
+</html>
