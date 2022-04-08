@@ -16,3 +16,7 @@
                 padding: 15px;
                 margin: 15px;
             }
+ .image {
+                max-width: 99%;
+                max-height: 99%;
+            }
