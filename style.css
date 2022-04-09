@@ -1,22 +1,27 @@
- button {
-                height: 100px;
-                width: 100px;
-                border-radius: 50%;
-                background-color: #E83556;
-                cursor: pointer;
-                color: white;
-            }
-            div {
-                width: 100%;
-                height: 100px;
-                background-color: #E83556;
-            }
-            * {
-                border: 2px solid #dedede;
-                padding: 15px;
-                margin: 15px;
-            }
- .image {
-                max-width: 99%;
-                max-height: 99%;
-            }
+.first-page {
+    width: 95%;
+    background-color: #4d5578;
+    margin: none;
+    padding: 2em 1em 1em 2em;
+    border: 5px solid  #53687e;
+    height: 700px;
+    text-align: center;
+}
+span {
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    color: #fff;
+}
+input[type=text] {
+    border: none;
+    background: transparent;
+    border-bottom: 1px dashed #fff;
+    outline: none;
+    color:#fff;
+    font-size: 15px;
+    font-style: italic;
+    
+}
+#intro-output {
+    transition: 2s input;
+    color: #fff;
+}
